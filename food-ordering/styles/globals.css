@@ -12,3 +12,6 @@ body {
 * {
   box-sizing: border-box;
 }
+.btn-primary{
+  @apply text-white px-[30px] py-[8px] rounded-3xl bg-primary cursor-pointer hover:opacity-70 transition-all;
+}
