@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/layout/Header";
 import Home from "./home";
+import Footer from "../components/layout/Footer";
 
 
 export default function Index() {
@@ -15,7 +16,8 @@ export default function Index() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>        
       </Head>
       <Header />
-      <Home />         
+      <Home />       
+      <Footer />  
     </div>
     
   )
